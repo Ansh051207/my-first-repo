@@ -1,0 +1,305 @@
+anshagrawal@ANSHs-MacBook-Air ~ % brew install git
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Homebrew collects anonymous analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics have been recorded yet (nor will be during this `brew` run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+config-file-validator: CLI tool to validate different configuration file types
+granted: Easiest way to access your cloud
+litehtml: Fast and lightweight HTML/CSS rendering engine
+precice: Coupling library for partitioned multi-physics simulations
+pydantic-core: Core functionality for Pydantic validation and serialization
+pyscn: Intelligent Python Code Quality Analyzer
+python-gdbm@3.14: Python interface to gdbm
+python-tk@3.14: Python interface to Tcl/Tk
+python@3.14: Interpreted, interactive, object-oriented programming language
+qt3d: Provides functionality for near-realtime simulation systems
+qt5compat: Qt 5 Core APIs that were removed in Qt 6
+qtbase: Cross-platform application and UI framework
+qtcharts: UI Components for displaying visually pleasing charts
+qtconnectivity: Provides access to Bluetooth hardware
+qtdatavis3d: Provides functionality for 3D visualization
+qtdeclarative: QML, Qt Quick and several related modules
+qtgraphs: Provides functionality for 2D and 3D graphs
+qtgrpc: Provides support for communicating with gRPC services
+qthttpserver: Framework for embedding an HTTP server into a Qt application
+qtimageformats: Plugins for additional image formats: TIFF, MNG, TGA, WBMP
+qtlanguageserver: Implementation of the Language Server Protocol and JSON-RPC
+qtlocation: Provides C++ interfaces to retrieve location and navigational information
+qtlottie: Display graphics and animations exported by the Bodymovin plugin
+qtmultimedia: Provides APIs for playing back and recording audiovisual content
+qtnetworkauth: Provides support for OAuth-based authorization to online services
+qtpositioning: Provides access to position, satellite info and area monitoring classes
+qtquick3d: Provides a high-level API for creating 3D content or UIs based on Qt Quick
+qtquick3dphysics: High-level QML module adding physical simulation capabilities to Qt Quick 3D
+qtquickeffectmaker: Tool to create custom Qt Quick shader effects
+qtquicktimeline: Enables keyframe-based animations and parameterization
+qtremoteobjects: Provides APIs for inter-process communication
+qtscxml: Provides functionality to create state machines from SCXML files
+qtsensors: Provides access to sensors via QML and C++ interfaces
+qtserialbus: Provides access to serial industrial bus interfaces
+qtserialport: Provides classes to interact with hardware and virtual serial ports
+qtshadertools: Provides tools for the cross-platform Qt shader pipeline
+qtspeech: Enables access to text-to-speech engines
+qtsvg: Classes for displaying the contents of SVG files
+qttools: Facilitate the design, development, testing and deployment of applications
+qttranslations: Qt translation catalogs
+qtvirtualkeyboard: Provides an input framework and reference keyboard frontend
+qtwayland: Wayland platform plugin and QtWaylandCompositor API
+qtwebchannel: Bridges the gap between Qt applications and HTML/JavaScript
+qtwebengine: Provides functionality for rendering regions of dynamic web content
+qtwebsockets: Provides WebSocket communication compliant with RFC 6455
+qtwebview: Displays web content in a QML application
+radvd: IPv6 Router Advertisement Daemon
+rolesanywhere-credential-helper: Manages getting temporary security credentials from IAM Roles Anywhere
+tracetest: Build integration and end-to-end tests
+
+You have 1 outdated formula installed.
+
+==> Fetching downloads for: git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.51.1
+######################################################################### 100.0%
+==> Fetching dependencies for git: libunistring, gettext and pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.4.1
+######################################################################### 100.0%
+==> Fetching libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:b9abc
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.26
+######################################################################### 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:f1a3876bef
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.46
+######################################################################### 100.0%
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:c11090dbc1b3
+######################################################################### 100.0%
+==> Fetching git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:754a766545654c
+######################################################################### 100.0%
+==> Installing dependencies for git: libunistring, gettext and pcre2
+==> Installing git dependency: libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.4.1
+Already downloaded: /Users/anshagrawal/Library/Caches/Homebrew/downloads/01b6a59504897811bd37ce076d575925ff56ac26ed4411438221dddef0807896--libunistring-1.4.1.bottle_manifest.json
+==> Pouring libunistring--1.4.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libunistring/1.4.1: 59 files, 5.5MB
+==> Installing git dependency: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.26
+Already downloaded: /Users/anshagrawal/Library/Caches/Homebrew/downloads/d28158ffec04fae757cdbeb46750e8e2ed43b7b17ada49d72a5bda2cff4cd6ed--gettext-0.26.bottle_manifest.json
+==> Pouring gettext--0.26.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.26: 2,428 files, 28.2MB
+==> Installing git dependency: pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.46
+Already downloaded: /Users/anshagrawal/Library/Caches/Homebrew/downloads/476078c344b0d9fa702da6e94d7fe5dd59bb1897d3fcc12d1b52b4bc0de68854--pcre2-10.46.bottle_manifest.json
+==> Pouring pcre2--10.46.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.46: 242 files, 6.8MB
+==> Installing git
+==> Pouring git--2.51.1.arm64_tahoe.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.51.1: 1,694 files, 55.7MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+anshagrawal@ANSHs-MacBook-Air ~ % git --version
+git version 2.39.5 (Apple Git-154)
+anshagrawal@ANSHs-MacBook-Air ~ % git config −−global user.name "Ansh Agrawal"
+fatal: not in a git directory
+anshagrawal@ANSHs-MacBook-Air ~ % git config −−global user.name "Ansh051207"  
+fatal: not in a git directory
+anshagrawal@ANSHs-MacBook-Air ~ % git config --list
+credential.helper=osxkeychain
+init.defaultbranch=main
+user.name=Ansh Agrawal
+user.email=aaanshagrawal@gmail.com
+anshagrawal@ANSHs-MacBook-Air ~ % mkdir my-first-repo
+anshagrawal@ANSHs-MacBook-Air ~ % cd my-first-repo
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git init
+Initialized empty Git repository in /Users/anshagrawal/my-first-repo/.git/
+anshagrawal@ANSHs-MacBook-Air my-first-repo % echo "# My First Project" > README.md
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git add README.md
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git add .
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git commit −m "Initial commit: Add README"
+error: pathspec '−m' did not match any file(s) known to git
+error: pathspec 'Initial commit: Add README' did not match any file(s) known to git
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git commit -m "Initial commit: Add README"
+[main (root-commit) 22f3e77] Initial commit: Add README
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git log
+commit 22f3e778dc55fbff2daf8da72c3ba297e8662647 (HEAD -> main)
+Author: Ansh Agrawal <aaanshagrawal@gmail.com>
+Date:   Thu Oct 16 11:03:29 2025 +0530
+
+    Initial commit: Add README
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git log --oneline
+22f3e77 (HEAD -> main) Initial commit: Add README
+anshagrawal@ANSHs-MacBook-Air my-first-repo % echo "This is my first Git project" >> README.md
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git diff
+diff --git a/README.md b/README.md
+index c6f75a8..9cd33fd 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,2 @@
+ # My First Project
++This is my first Git project
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git diff --staged
+anshagrawal@ANSHs-MacBook-Air my-first-repo % # Create .gitignore
+zsh: command not found: #
+anshagrawal@ANSHs-MacBook-Air my-first-repo % cat > .gitignore << EOF
+heredoc> *.log
+heredoc> node_modules/
+heredoc> .env
+heredoc> *.tmp
+heredoc> EOF
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git add .gitignore
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git commit −m "Add .gitignore file"
+error: pathspec '−m' did not match any file(s) known to git
+error: pathspec 'Add .gitignore file' did not match any file(s) known to git
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git commit -m "Add .gitignore file"
+[main 553e65c] Add .gitignore file
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .gitignore
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git branch
+* main
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git branch feature-login
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git checkout feature-login
+M	README.md
+Switched to branch 'feature-login'
+anshagrawal@ANSHs-MacBook-Air my-first-repo % echo "Login functionality" > login.txt
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git add login.txt
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git commit −m "Add login feature"
+error: pathspec '−m' did not match any file(s) known to git
+error: pathspec 'Add login feature' did not match any file(s) known to git
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git commit -m "Add login feature"
+[feature-login f522038] Add login feature
+ 1 file changed, 1 insertion(+)
+ create mode 100644 login.txt
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git checkout main
+M	README.md
+Switched to branch 'main'
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git merge feature−login
+merge: feature−login - not something we can merge
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git merge feature-login
+Updating 553e65c..f522038
+Fast-forward
+ login.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 login.txt
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git branch -d feature-login
+Deleted branch feature-login (was f522038).
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git log
+commit f522038a185c15d101db0306dcb70ede3a6af6f6 (HEAD -> main)
+Author: Ansh Agrawal <aaanshagrawal@gmail.com>
+Date:   Thu Oct 16 11:08:19 2025 +0530
+
+    Add login feature
+
+commit 553e65c7228868c8de91307c81d087f8731ac1ed
+Author: Ansh Agrawal <aaanshagrawal@gmail.com>
+Date:   Thu Oct 16 11:06:42 2025 +0530
+
+    Add .gitignore file
+
+commit 22f3e778dc55fbff2daf8da72c3ba297e8662647
+Author: Ansh Agrawal <aaanshagrawal@gmail.com>
+Date:   Thu Oct 16 11:03:29 2025 +0530
+
+    Initial commit: Add README
+anshagrawal@ANSHs-MacBook-Air my-first-repo % ls −al ~/.ssh
+ls: /Users/anshagrawal/.ssh: No such file or directory
+ls: −al: No such file or directory
+anshagrawal@ANSHs-MacBook-Air my-first-repo % ssh -T git@github.com
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+anshagrawal@ANSHs-MacBook-Air my-first-repo % ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+anshagrawal@ANSHs-MacBook-Air my-first-repo % ssh-keygen -t ed25519 -C "your.aaanshagrawal@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/Users/anshagrawal/.ssh/id_ed25519): anshgit
+Enter passphrase for "anshgit" (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in anshgit
+Your public key has been saved in anshgit.pub
+The key fingerprint is:
+SHA256:6OAnts9BFccLgJkeJCu8I8kxQkDg4yKGQ6YVDwnIrmQ your.aaanshagrawal@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|X++o.+.....      |
+|=..*=   .o.      |
+|+Oo...  .. .     |
+|OE= .  o  .      |
+|%*  . o S        |
+|*... +           |
+|    + +          |
+|   . = .         |
+|    ..o          |
++----[SHA256]-----+
+anshagrawal@ANSHs-MacBook-Air my-first-repo % eval "$(ssh−agent −s)"
+zsh: command not found: ssh−agent
+anshagrawal@ANSHs-MacBook-Air my-first-repo % eval "$(ssh-agent -s)"
+Agent pid 27367
+anshagrawal@ANSHs-MacBook-Air my-first-repo % ssh-add ~/.ssh/id_ed25519
+/Users/anshagrawal/.ssh/id_ed25519: No such file or directory
+anshagrawal@ANSHs-MacBook-Air my-first-repo % ls
+anshgit		anshgit.pub	login.txt	README.md
+anshagrawal@ANSHs-MacBook-Air my-first-repo % ssh-add ./anshgit.pub
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for './anshgit.pub' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+anshagrawal@ANSHs-MacBook-Air my-first-repo % ssh-add ./anshgit    
+Identity added: ./anshgit (your.aaanshagrawal@gmail.com)
+anshagrawal@ANSHs-MacBook-Air my-first-repo % pbcopy < ./anshgit.pub        
+anshagrawal@ANSHs-MacBook-Air my-first-repo % ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+anshagrawal@ANSHs-MacBook-Air my-first-repo % pbcopy < ./anshgit.pub
+anshagrawal@ANSHs-MacBook-Air my-first-repo % ssh -T git@github.com 
+Hi Ansh051207! You've successfully authenticated, but GitHub does not provide shell access.
+anshagrawal@ANSHs-MacBook-Air my-first-repo % git remote add origin https://github.com/Ansh051207/my-first-repo.git
+git branch -M main
+git push -u origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 767 bytes | 767.00 KiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Ansh051207/my-first-repo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
